@@ -1,1 +1,5 @@
 This project is used for smart-grid project client and server communication
+git commit -m 'first commit'
+git remote add master git
+git remote add master git@github.com:junweiyuan/smart_grid.git
+git push -u master master
