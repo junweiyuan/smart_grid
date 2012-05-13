@@ -3,3 +3,13 @@ git commit -m 'first commit'
 git remote add master git
 git remote add master git@github.com:junweiyuan/smart_grid.git
 git push -u master master
+
+Compile
+Client
+gcc -o TCPEchoClient TCPEchoClient.c DieWithError.c
+Server
+gcc -o TCPEchoServer TCPEchoServer.c DieWithError.c HandleTCPClient.c
+
+./TCPEchoClient 129.210.16.151 abc 6666
+./TCPEchoServer 6666
+
