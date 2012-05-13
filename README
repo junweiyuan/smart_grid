@@ -13,3 +13,4 @@ gcc -o TCPEchoServer TCPEchoServer.c DieWithError.c HandleTCPClient.c
 ./TCPEchoClient 129.210.16.151 abc 6666
 ./TCPEchoServer 6666
 
+Most work is in HandleTCPClient.c
